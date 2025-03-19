@@ -1,0 +1,280 @@
+*{
+  margin: 0%;
+  
+}
+#basic-navbar-nav .mx-auto .nav-link{
+  color: darkseagreen;
+}
+.mx-auto .nav-link:hover{
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 2px solid yellowgreen;
+
+}
+#nav{
+  background:teal;
+}
+#con{
+background-color: #f7f7f7;
+background: fixed;
+}
+#m1{
+  padding: 5%;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.about-image{
+  height: 300px;
+  max-width: 80%;
+  border-radius: 35px;
+}
+#btnmore{
+  border-radius: 0%;
+  width:200px;
+}
+#hrow{
+  background-image: url('./images/dr.jpg');
+ background-size: cover;
+}
+#bio{
+  height: 100%;
+  max-width:100% ;
+  padding: 4%;
+}
+#bio:hover{
+  border-radius: 60%;
+  transition:1s;
+
+}
+.card{
+  padding: 3%;
+  margin-left: 2%;
+ margin-bottom: 2%;
+}
+.depart-name{
+  
+  color: purple;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#depart-image{
+  height: 250px;
+  width: 100%;
+  transition:1s ;
+}
+#depart-image:hover{
+  transform: scale(1.2);
+}
+#inpt{
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0%;
+  box-shadow: none;
+
+}
+.mx-auto .nav-link{
+  color:navy;
+  font-weight: 800;
+}
+#inplog{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid black;
+  border-radius: 0%;
+  padding-top: 3%;
+ box-shadow: none;
+ background: none;
+ font-weight: bolder;
+ color: purple;
+}
+#inplog::placeholder{
+  color:purple;
+}
+#regbtn{
+ min-width:90%;
+ border-radius: 0%;
+ height:100px;
+  
+}
+#inp{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid black;
+  border-radius: 0%;
+  padding-top: 5%;
+  box-shadow: none;
+}
+#inpcon{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid lightblue;
+  border-radius: 0%;
+  box-shadow: none;
+  background: none;
+  color: gray;
+  
+}
+#inpcon::placeholder{
+  color: gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#regcon{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 35px;
+  box-shadow: 0px 5px 5px 5px gray;
+  
+}
+#inpAppointment{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid black;
+  border-radius: 0%;
+  padding-top: 3%;
+ box-shadow: none;
+ width: 200px;
+}
+#regstyle{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: url('./images/regbg.jpg');
+  background-size: cover;
+ 
+}
+
+#footer{
+
+  background-image: url('./images/fbb.jpg');
+  background-size: cover;
+  min-height: 80%;
+  border-top-left-radius: 60%;
+  border-top-right-radius:30% ;
+  min-width: 100%;
+}
+
+#QL{
+  margin-top: 15%;
+}
+#QL ul li{
+  list-style: none;
+}
+.ql{
+  text-decoration: none;
+  color: antiquewhite;
+}
+#wl ul li{
+  list-style: none;
+  color: antiquewhite;
+}
+
+#logo:hover{
+  transform: scale(1.2);
+}
+#offer ul li {
+padding: 2%;
+border: 1px solid black;
+list-style: none;
+}
+#offer ul li:hover {
+ background-color: black;
+ color: white;
+}
+#aboutimg:hover{
+  transform: scale(1.2);
+}
+#sp:hover{
+  
+  background-color: black;
+  color: white;
+}
+.me-header .link{
+color: white;
+font-weight: bold;
+}
+
+.rCon{
+
+  background-image: url('./images/dcont.jpg');
+  background-size: cover;
+  border: 2px solid gray ;
+  padding: 2%;
+  box-shadow: 0px 20px 20px 20px black;
+  min-height: 70%;
+  max-width: 50%;
+ 
+}
+#txtar::placeholder{
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mainrowcon{
+  
+  background-image: url('./images/conbgrow.jpeg');
+  min-height: 60vh;
+  background-size: cover;
+ 
+  max-width: 100%;
+
+}
+#leftcon{
+  border-right: 2px solid white;
+  padding-right:50px ;
+}
+
+#phonecon{
+  animation: moveUpDown .5s infinite alternate ease-in-out;
+}
+@keyframes moveUpDown {
+  0% {
+    transform: rotate(15deg);
+  }
+  50% {
+    font-size: 30px;
+    transform: rotate(-15deg);
+  }
+  75%{
+    transform: rotate(5deg);
+  }
+  100%{
+    font-size: 30px;
+    transform: rotate(-5deg);
+  }
+
+}
+#buttonanimation{
+  animation:color .5s infinite alternate ease-in-out;
+}
+@keyframes color {
+  0% {
+    
+    background-color: #8b9dc3;
+  }
+  100%{
+    font-size: 30px;
+  }
+
+}
+#regbtn{
+  animation:colo .5s infinite alternate ease-in-out;
+}
+@keyframes colo {
+  0% {
+    
+    background-color: black;
+  }
+  100%{
+    font-size: 30px;
+  }
+
+}
+
+
